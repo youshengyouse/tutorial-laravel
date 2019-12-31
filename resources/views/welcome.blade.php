@@ -64,6 +64,7 @@
         </style>
     </head>
     <body>
+    <div class="flex-center" style="font-size:26px;background-color: #f90;padding:20px;margin-top:30px;color:#fff;">当前是第<?php echo $_SERVER['LESSON']?>课</div>
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
