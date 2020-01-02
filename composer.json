@@ -74,6 +74,21 @@
     "options": {
         "symlink": true
         }
+    } ,
+    {
+    "type": "path",
+    "url": "/tutorials/vendor2/chuse/chuse-helper",
+    "options": {
+        "symlink": true
+        }
+    }
+    ,
+    {
+    "type": "path",
+    "url": "/tutorials/vendor2/chuse/chuse-debug",
+    "options": {
+        "symlink": true
+        }
     }
 ],
     "scripts": {

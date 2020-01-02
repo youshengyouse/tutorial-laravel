@@ -4,8 +4,32 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "150074f7d96177fb3c7d14558d255755",
+    "content-hash": "8165977b37c075ba7d0a1f31c2ef516c",
     "packages": [
+        {
+            "name": "chuse/chuse-helper",
+            "version": "1.0.1",
+            "dist": {
+                "type": "path",
+                "url": "/tutorials/vendor2/chuse/chuse-helper",
+                "reference": "6a6b9a1793498836776d67f0b100a00b15c06618"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Chuse\\Helper\\": "src/"
+                },
+                "files": [
+                    "src/debug.php",
+                    "src/helper.php",
+                    "src/Html.php"
+                ]
+            },
+            "description": "出色助手",
+            "transport-options": {
+                "symlink": true
+            }
+        },
         {
             "name": "dnoegel/php-xdg-base-dir",
             "version": "v0.1.1",
