@@ -8,6 +8,9 @@
  */
 
 define('LARAVEL_START', microtime(true));
+putenv("APP_ENV=local");
+//putenv("APP_BATH_PATH=../cms");
+
 /*
 |--------------------------------------------------------------------------
 | Register The Auto Loader
@@ -36,6 +39,8 @@ require __DIR__.'/../vendor/autoload.php';
 
 $app = require_once __DIR__.'/../bootstrap/app.php';
 
+
+
 /*
 |--------------------------------------------------------------------------
 | Run The Application
@@ -47,6 +52,11 @@ $app = require_once __DIR__.'/../bootstrap/app.php';
 | and wonderful application we have prepared for them.
 |
 */
+
+
+
+
+
 
 $kernel = $app->make(Illuminate\Contracts\Http\Kernel::class);
 
