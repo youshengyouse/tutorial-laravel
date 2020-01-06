@@ -8,8 +8,8 @@
  */
 
 define('LARAVEL_START', microtime(true));
-putenv("APP_ENV=local");
-//putenv("APP_BATH_PATH=../cms");
+putenv("APP_ENV=home");
+
 
 /*
 |--------------------------------------------------------------------------
