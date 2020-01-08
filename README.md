@@ -29,6 +29,6 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 
 ## 有声有色出品的精品教程
 - [第1课_laravel安装的三种方式](./01.laravel安装.md).
-- [第2课_laravel第一次亲密接触](./02.初识laravel.md).
+- [第2课_laravel环境变量的设置](./02.aravel环境变量的设置.md).
 
 
