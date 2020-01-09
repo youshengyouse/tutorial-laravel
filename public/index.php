@@ -8,7 +8,9 @@
  */
 
 define('LARAVEL_START', microtime(true));
-putenv("APP_ENV=home");
+putenv("ENV=dev");
+
+
 
 
 /*
@@ -64,7 +66,7 @@ $response = $kernel->handle(
     $request = Illuminate\Http\Request::capture()
 );
 
-
+echo env('APP_ENV');
 $response->send();
 
 $kernel->terminate($request, $response);
